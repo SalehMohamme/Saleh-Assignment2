@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="Controller.Admin.CreateAccountController">
+    <children>
+        <Button fx:id="usersManagmentPageBtn" layoutX="10.0" layoutY="10.0" onAction="#showUsersManagmentPage" text="Users Management Page" />
+        <Button fx:id="accountsPageBtn" layoutX="10.0" layoutY="50.0" onAction="#showAccountsPage" text="Accounts Page" />
+        <Button fx:id="operationsPageBtn" layoutX="10.0" layoutY="90.0" onAction="#showOperationsPage" text="Operations Page" />
+        <Button fx:id="saveNewAccountBtn" layoutX="10.0" layoutY="130.0" onAction="#saveNewAccount" text="Save New Account" />
+        <Button fx:id="cancelBtn" layoutX="10.0" layoutY="170.0" onAction="#cancelAccountCreation" text="Cancel" />
+        <TextField fx:id="accountNumberTF" layoutX="166.0" layoutY="50.0" />
+        <TextField fx:id="usernameTF" layoutX="166.0" layoutY="90.0" />
+        <TextField fx:id="currencyTF" layoutX="169.0" layoutY="144.0" />
+        <TextField fx:id="balanceTF" layoutX="169.0" layoutY="184.0" />
+        <DatePicker fx:id="datePicker" layoutX="166.0" layoutY="230.0" />
+      <TextField fx:id="user_idTF1" layoutX="166.0" layoutY="10.0" />
+    </children>
+</AnchorPane>
